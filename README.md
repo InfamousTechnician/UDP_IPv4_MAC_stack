@@ -7,7 +7,7 @@ Limitations:
 - no ICMP
 - payloads have to be over 46 bytes
 - all addresses are hard coded
-- fairly large design compared to its limitations, due to the high speed pipelines
+- fairly large footprint compared to its limitations, due to the high speed pipelines
 
 Advantage:
 - works at 1Gbits/sec even on Xilinx Spartan-3 (90nm process) devices
