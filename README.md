@@ -11,3 +11,11 @@ Limitations:
 
 Advantage:
 - works at 1Gbits/sec even on Xilinx Spartan-3 (90nm process) devices
+
+State of development:
+- the transmitter has been proven to work on an Artix FPGA and freezes my Windows laptop with a clear 1Gbit/s steady UDP stream when I turn it on
+- after that the receiver I tested against the code of the transmitter in simulation
+
+Use case:
+- well you can still DoS your PC with the transmitter very cheaply
+- even 10Gb/s with an Artix would be possible if only it had 10Gb/s transceivers, yet with XAUI it is still an option
